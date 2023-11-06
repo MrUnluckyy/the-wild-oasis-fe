@@ -49,7 +49,6 @@ function CabinRow({ cabin }) {
 
   const { createCabin, isCreating } = useCreateCabin();
   const { deleteCabin, isDeleting } = useDeleteCabin();
-  const isLoading = isCreating || isDeleting;
 
   const handleDuplicateCabin = () => {
     createCabin({
