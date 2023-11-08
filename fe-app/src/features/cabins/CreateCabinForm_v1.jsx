@@ -31,7 +31,7 @@ function CreateCabinForm({ cabinToEdit }) {
   };
 
   const onError = (errors) => {
-    console.log(errors);
+    console.error(errors);
   };
 
   return (
