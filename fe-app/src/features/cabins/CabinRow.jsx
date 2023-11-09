@@ -47,7 +47,7 @@ function CabinRow({ cabin }) {
     maxCapacity,
   } = cabin;
 
-  const { createCabin, isCreating } = useCreateCabin();
+  const { createCabin } = useCreateCabin();
   const { deleteCabin, isDeleting } = useDeleteCabin();
 
   const handleDuplicateCabin = () => {
