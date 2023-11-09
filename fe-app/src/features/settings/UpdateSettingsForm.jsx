@@ -14,7 +14,6 @@ function UpdateSettingsForm() {
       maxGuestsPerBooking,
       breakfastPrice,
     } = {},
-    error,
   } = useSettings();
 
   const { isUpdating, updateSetting } = useUpdateSetting();
