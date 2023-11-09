@@ -11,7 +11,6 @@ function BookingTable() {
 
   if (isLoading) return <Spinner />;
   if (!bookings || !bookings.length) return <Empty resource="bookings" />;
-  // const bookings = [];
 
   return (
     <Menus>
