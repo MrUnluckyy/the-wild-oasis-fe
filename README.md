@@ -6,3 +6,6 @@ WildCabin Manager is a sleek and modern web application designed for efficiently
 
 [The Wild Oasis](https://the-wild-oasis-lt.netlify.app/login)
 Credentials: demex38966@newnime.com / secret123
+
+---
+Main project Jonas Schmedtmann's Ultimate React Course. Built with React Query and Supabase.
